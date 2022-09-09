@@ -19,6 +19,7 @@
     max-width: 250px;
     margin-bottom: 30px;
     border-radius: 10px;
+    padding-bottom: 10px;
     &__price {
       color: $primary-color;
       font-size: 22px;
@@ -29,6 +30,12 @@
     }
     &__text {
       text-align: center;
+      font-size: 13px;
+      font-weight: lighter;
+    }
+    &__count{
+      color: $primary-green;
+      font-weight: bolder;
     }
     &:hover {
       transform: scale(1.1);
