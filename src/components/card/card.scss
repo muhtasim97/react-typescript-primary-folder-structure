@@ -1,0 +1,38 @@
+@import '../../styles/main.scss';
+
+.p-card {
+  min-width: 300px;
+  min-height: 500px;
+  margin-top: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: arial;
+    max-width: 250px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    &__price {
+      color: $primary-color;
+      font-size: 22px;
+    }
+    &__image {
+      height: 300px;
+      width: 100%;
+    }
+    &__text {
+      text-align: center;
+    }
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+    }
+  }
+}
